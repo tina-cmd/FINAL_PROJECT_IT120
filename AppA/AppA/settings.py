@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'AppA',
     'users',
+    'user_messages',
     'corsheaders',
     'channels',
 ]
