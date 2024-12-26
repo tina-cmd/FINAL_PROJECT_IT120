@@ -31,13 +31,12 @@ AppA is designed to securely receive messages from AppB. It acts as a dedicated 
 
 ### Directory Structure
 
-plaintext
+
 appA/
 ├── manage.py # Django command-line utility
 ├── db.sqlite3 # Local SQLite database
 ├── user_messages/ # Message processing functionalityHere's the converted content in README.md format:
 
-```markdown
 # AppA and AppB Documentation
 
 ## Overview
@@ -102,7 +101,6 @@ AppB serves as the user-facing application, providing authentication and secure 
 
 ### Directory Structure
 
-plaintext
 appB/
 ├── manage.py # Django command-line utility
 ├── db.sqlite3 # Local SQLite database
