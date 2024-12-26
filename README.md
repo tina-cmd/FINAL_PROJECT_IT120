@@ -1,5 +1,4 @@
 # FINAL_PROJECT_IT120
-Check daw ni: # AppA and AppB Documentation
 
 ## Overview
 
