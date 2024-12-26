@@ -28,7 +28,7 @@ class DecryptResponseMiddleware:
         self.get_response = get_response
 
     def __call__(self, request):
-        # Call the view or the next middleware
+        # Call the view or the next middleware  
         response = self.get_response(request)
 
         # Ensure the response is either a DRF Response or JsonResponse

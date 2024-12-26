@@ -7,6 +7,16 @@ from django.shortcuts import render
 from .serializers import RegisterSerializer, LoginSerializer
 from django.contrib.auth.models import User
 from .models import Message
+import os
+from cryptography.fernet import Fernet
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
+
+# Load the shared encryption key from the environment
+key = os.getenv('ENCRYPTION_KEY')
+cipher_suite = Fernet(key)
 
 def messaging_interface(request):
     # Render your messaging interface template
