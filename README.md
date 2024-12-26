@@ -70,7 +70,6 @@ AppA is designed to securely receive messages from AppB. It acts as a dedicated 
 
 ### Directory Structure
 
-```plaintext
 appA/
 ├── manage.py # Django command-line utility
 ├── db.sqlite3 # Local SQLite database
@@ -146,7 +145,7 @@ AppA is designed to securely receive messages from AppB. It acts as a dedicated 
 
 ### Directory Structure
 
-```plaintext
+
 appA/
 ├── manage.py # Django command-line utility
 ├── db.sqlite3 # Local SQLite database
@@ -225,9 +224,6 @@ python manage.py runserver 8001
 
 1. AppA: Open your browser and navigate to [http://127.0.0.1:8000](http://127.0.0.1:8000)
 2. AppB: Open your browser and navigate to [http://127.0.0.1:8001](http://127.0.0.1:8001)
-
-
-
 
 
 ---
